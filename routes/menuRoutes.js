@@ -81,4 +81,6 @@ router.delete('/:id', async(req,res)=>{
     }
 })
 
+// Now the time to export router 
+
 module.exports = router;

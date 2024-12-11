@@ -33,7 +33,7 @@ const personSchema = new mongoose.Schema({
 
 });
 
-//Create Person model
+//Create Person model 
 
 const model = mongoose.model('Person',personSchema);
 module.exports = model;
